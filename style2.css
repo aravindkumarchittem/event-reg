@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #50b3a2;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+}
+
+.add-event, .event-list {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.add-event h2, .event-list h2 {
+    text-align: center;
+    color: #333333;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #cccccc;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #50b3a2;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background: #45a094;
+}
+
+.event {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    background: #f4f4f4;
+}
+
+.event h3 {
+    margin: 0;
+}
+
+.event p {
+    margin: 5px 0;
+}
+
+.event button {
+    background: #e8491d;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.event button:hover {
+    background: #d43f1a;
+}
